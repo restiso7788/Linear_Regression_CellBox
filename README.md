@@ -9,12 +9,15 @@ the average Pearson's correlations for random partition and leave one drug out f
 # Data description
 
 ### expert.csv:
+There are two data files in this folder.
+
 Protein expression data from RPPA for the protein nodes and phenotypic node calues. Each row is a condition and each column is a node.
 
 ### random_partition_average_testhat_929.csv:
 Predicted responses from CellBox model after randomly split the data 1000 times for training and testing.
 
-# Scripts description
+# Code_script description
+There are four coding scripts in this folder.
 
 ### LR_Random_partition:
 In this code script, we predict the cell response on linear regression model, with 70%(n=62 conditions) for training and the rest for testing(30%, n=27 conditions). We repeated this process for 1,000 independent random training and testing datasets, and evaluate the model performance on Pearson's correlation. The average correlation from the linear regression model is 0.962, which is slight higher than the CellBox, 0.926. 

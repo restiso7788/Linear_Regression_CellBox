@@ -13,7 +13,7 @@ the average Pearson's correlations for random partition and leave one drug out f
 Protein expression data from RPPA for the protein nodes and phenotypic node calues. Each row is a condition and each column is a node.
 
 ### random_partition_average_testhat_929.csv:
-Predicted responses from CellBox model after randomly split the data 1000 times for training and testing.
+Predicted responses from CellBox model after randomly split the data 1000 times for training and testing
 
 # Code_script description
 ## There are four coding scripts in this folder.

@@ -6,6 +6,9 @@ In this project, we are going to compare the linear regression and CellBox model
 melanoma cell line after drug treatment. We implemented the linear regression on both random parition, and leave one drug out cases,
 the average Pearson's correlations for random partition and leave one drug out from linear regression are better than results from CellBox. 
 
+# How to run 
+Download the zip file, and you should able to run all scripts.
+
 # Data description
 ## There are two data files in this folder
 
